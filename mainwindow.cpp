@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     char buf[256];
     ui->setupUi(this);
-    chdir("C:\\");
+    chdir("C:\\Devel");
     ui->textEdit->setText(getcwd(buf, sizeof(buf)));
     //ui->listWidget->addItem("teste");
 }
