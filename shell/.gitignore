@@ -1,0 +1,6 @@
+*.o
+.DS_Store
+pfsshell
+*.a
+*.IMG
+*.exe
